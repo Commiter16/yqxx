@@ -69,7 +69,8 @@ kzl12: ''
 # 0 低风险地区（Low risk area）
 # 1 中风险地区（Medium risk area）
 # 2 高风险地区（High risk areas）
-kzl13: 0
+# 3 常态化防控区域（Normalized prevention and control areas）
+kzl13: 3
 
 # 您所处中/高风险地区所在街道，社区名称（The street and community name of your medium/high risk area is）
 # 例：哈尔滨市呼兰区兰河街道沿河社区
@@ -162,9 +163,10 @@ kzl31: ''
 
 # 目前本人新冠疫苗接种情况（Vaccination status）
 # 0 未接种(Unvaccinated)
-# 1 已接种部分剂次(Single dose has been inoculated)
-# 2 已接种全部剂次(Both doses inoculated)
-kzl32: 2
+# 1 已接种第一针(Yes,I have completed the first dose)
+# 2 已接种第二针(Yes,I have completed the second dose)
+# 3 已接种第三针(Yes,I have completed the third dose)
+kzl32: 3
 
 # 其他信息（Other information）
 kzl33: '无'
